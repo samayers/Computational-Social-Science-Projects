@@ -1,0 +1,14 @@
+cd Documents/CSS
+git clone 
+https://github.com/samayers/Computational-Social-Science-Projects.git
+cd Computational-Social-Science-Projects
+mkdir project_1
+cd project_1
+touch create_repository_code.txt
+nano create_repository_code.txt
+cd ..
+git status
+git add create_repository_code.txt
+git commit -m "First commit of commands used to clone and start using the 
+CSS projects repository"
+git push
